@@ -25,4 +25,6 @@
         <activity android:name=".sample.LiveActivity"></activity>
     </application>
 
+
+
 </manifest>

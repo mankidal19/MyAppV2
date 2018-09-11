@@ -63,9 +63,19 @@ public class LiveActivity extends FragmentActivity {
 
     @Override
     protected void onDestroy(){
-        super.onDestroy();
+
         youTubePlayerView.release();
+        youTubePlayerView = null;
+        super.onDestroy();
         Log.i("in Live Activity","onDestroy() is called");
+    }
+
+    @Override
+    protected void onStop(){
+
+
+        super.onStop();
+        Log.i("in Live Activity","onStop() is called");
     }
 
 
