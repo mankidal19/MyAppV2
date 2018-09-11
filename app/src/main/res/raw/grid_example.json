@@ -1,0 +1,70 @@
+{
+  "cards": [
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "Al Jazeera English - LIVE",
+      "description": "At Al Jazeera English, we focus on people and events that affect people's lives.",
+      "localImageResource": "aljazeera",
+      "videoId":"lpBAE0Z0INI"
+    },
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "Arirang TV World - LIVE",
+      "description": "Arirang TV/Radio is a public service agency that spreads the uniqueness of Korea to the world through cutting-edge broadcasting.",
+      "localImageResource": "arirang",
+      "videoId":"2LWt-dxd0v4"
+    },
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "Best Bits of Bean - LIVE",
+      "description": "Livestream 24/7 Mr Bean",
+      "localImageResource": "mrbean",
+      "videoId":"zEeSa0KpyOY"
+    },
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "Euronews English - LIVE",
+      "description": "Euronews: the most watched news channel in Europe Subscribe!",
+      "localImageResource": "euronews",
+      "videoId":"yS2V6jQBXwk"
+    },
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "KBSWorld 24 - LIVE",
+      "description": "700만 해외동포와 함께 하는 KBS World 24!!! ",
+      "localImageResource": "kbsworld",
+      "videoId":"KkXq2sv6Tos"
+    },
+
+    {
+      "type": "YOUTUBETV_LIVE",
+      "title": "Mr Bean Cartoon Marathon - LIVE",
+      "description": "Funny Episodes of Mr Bean the Animated Series 24/7",
+      "localImageResource": "mrbeanc",
+      "videoId":"Lvp-lSqHVKc"
+    },
+
+
+    {
+      "type": "YOUTUBETV_FULLSCREEN",
+      "title": "YoutubeTvView fullscreen showcase",
+      "description": "classic YoutubeTvView",
+      "localImageResource": "fullscreen",
+      "videoId":"bdnHKdb-Oss"
+    },
+
+    {
+      "type": "YOUTUBETV_API",
+      "title": "YoutubeTvView API showcase",
+      "description": "YoutubeTvView with button controls",
+      "localImageResource": "api",
+      "videoId":"bdnHKdb-Oss"
+    }
+
+  ]
+}
