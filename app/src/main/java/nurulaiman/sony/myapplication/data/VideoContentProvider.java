@@ -130,7 +130,7 @@ public class VideoContentProvider extends ContentProvider {
             card.getId(),
             card.getTitle(),
             card.getDescription(),
-            card.getImageURI(),
+            card.getLocalImageResourceId(getContext()),
                 "video/mp4",
             card.isLive(),
             card.getWidth(),
