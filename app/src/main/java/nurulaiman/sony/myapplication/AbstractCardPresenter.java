@@ -5,6 +5,8 @@ import android.support.v17.leanback.widget.BaseCardView;
 import android.support.v17.leanback.widget.Presenter;
 import android.view.ViewGroup;
 
+import nurulaiman.sony.myapplication.model.Card;
+
 public abstract class AbstractCardPresenter<T extends BaseCardView> extends Presenter {
 
     private final Context mContext;

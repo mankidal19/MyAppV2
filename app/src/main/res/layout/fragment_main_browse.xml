@@ -4,10 +4,10 @@
     android:id="@+id/main_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainBrowseFragment">
+    tools:context=".fragment.MainBrowseFragment">
 
     <fragment
-        android:name="nurulaiman.sony.myapplication.MainBrowseFragment"
+        android:name="nurulaiman.sony.myapplication.fragment.MainBrowseFragment"
         android:id="@+id/main_browse_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

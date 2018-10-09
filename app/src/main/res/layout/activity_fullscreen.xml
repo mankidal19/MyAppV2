@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".sample.FullscreenActivity">
+    tools:context=".activity.FullscreenActivity">
 
     <fr.bmartel.youtubetv.YoutubeTvView
         android:id="@+id/youtube_video"

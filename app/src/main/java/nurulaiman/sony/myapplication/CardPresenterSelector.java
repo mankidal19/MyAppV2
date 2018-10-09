@@ -8,6 +8,8 @@ import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Map;
 
+import nurulaiman.sony.myapplication.model.Card;
+
 public class CardPresenterSelector extends PresenterSelector {
 
     private final Context mContext;

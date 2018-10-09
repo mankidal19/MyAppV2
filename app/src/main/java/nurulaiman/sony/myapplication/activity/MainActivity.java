@@ -1,7 +1,9 @@
-package nurulaiman.sony.myapplication;
+package nurulaiman.sony.myapplication.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import nurulaiman.sony.myapplication.R;
 
 //import android.support.v7.app.AppCompatActivity;
 

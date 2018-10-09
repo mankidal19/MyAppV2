@@ -7,9 +7,10 @@ import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.View;
 
-import nurulaiman.sony.myapplication.sample.ApiActivity;
-import nurulaiman.sony.myapplication.sample.FullscreenActivity;
-import nurulaiman.sony.myapplication.sample.LiveActivity;
+import nurulaiman.sony.myapplication.model.Card;
+import nurulaiman.sony.myapplication.activity.ApiActivity;
+import nurulaiman.sony.myapplication.activity.FullscreenActivity;
+import nurulaiman.sony.myapplication.activity.LiveActivity;
 import com.squareup.picasso.Picasso;
 
 public class ImageCardViewPresenter extends AbstractCardPresenter<ImageCardView> {

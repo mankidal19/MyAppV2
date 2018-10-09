@@ -1,5 +1,6 @@
-package nurulaiman.sony.myapplication.sample;
+package nurulaiman.sony.myapplication.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -23,13 +24,32 @@ public class LiveActivity extends FragmentActivity {
     //for channel up/down button
     private ArrayList<String> channelArrayList = new ArrayList<String>();
 
+    //for search functionality
+    public static Intent createIntent(Context context, int id) {
+        Intent intent = new Intent(context, LiveActivity.class);
+
+        //.putExtra("mediaId", id);
+
+        Log.i("in Live Activity","value passed: " + id);
+        return intent;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_live);
-        initYouTubePlayerView();
+
         initChannelList();
+
+        if(getIntent().getExtras().getInt("mediaId") >=0){
+            int mediaId = getIntent().getExtras().getInt("mediaId");
+            liveVideoId = channelArrayList.get(mediaId);
+            Log.i("in Live Activity","video id: " + liveVideoId);
+        }
+
+
+        initYouTubePlayerView();
+
     }
 
     @Override
@@ -129,7 +149,10 @@ public class LiveActivity extends FragmentActivity {
         youTubePlayerView.getPlayerUIController().showFullscreenButton(false);
         youTubePlayerView.getPlayerUIController().enableLiveVideoUI(true);
 
-        liveVideoId = getIntent().getExtras().getString("videoId");
+        if(liveVideoId == null){
+            liveVideoId = getIntent().getExtras().getString("videoId");
+        }
+
         Log.i("in Live Activity","current videoID: "+ liveVideoId);
 
         getLifecycle().addObserver(youTubePlayerView);
@@ -151,10 +174,10 @@ public class LiveActivity extends FragmentActivity {
 
     //initialize channel list ArrayList
     private void initChannelList(){
-        channelArrayList.add("lpBAE0Z0INI");
+        channelArrayList.add("FdtQ2ZgLbEs");
         channelArrayList.add("2LWt-dxd0v4");
-        channelArrayList.add("zEeSa0KpyOY");
-        channelArrayList.add("yS2V6jQBXwk");
+        channelArrayList.add("Q1rNi_PP0YU");
+        channelArrayList.add("1rGQ-kbmg1g");
         channelArrayList.add("KkXq2sv6Tos");
         channelArrayList.add("Lvp-lSqHVKc");
     }

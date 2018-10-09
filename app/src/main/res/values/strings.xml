@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">[NAMT v2]</string>
+    <string name="app_name">My TV App</string>
     <string name="grid_title">Live Broadcasts &#38; VODs</string>
     <string name="dialog_title_license">License</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="search_hint">Search for Live TV</string>
+    <string name="search_label">My TV App</string>
+    <string name="settings_description">Assistant My TV App Demo Videos</string>
 </resources>

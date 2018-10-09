@@ -1,4 +1,4 @@
-package nurulaiman.sony.myapplication;
+package nurulaiman.sony.myapplication.model;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -40,6 +40,40 @@ public class Card {
     @SerializedName("videoId")
     private String mVideoId;
 
+    //adding for search
+
+    @SerializedName("live")
+    private boolean live;
+
+    //adding constructor for search
+    Card(
+            int id,
+            String title,
+            String description,
+            String cardImage,
+            String backgroundImage,
+            String videoUrl,
+            String contentType,
+            boolean live,
+            int width,
+            int height,
+            String audioChannelConfig,
+            String purchasePrice,
+            String rentalPrice,
+            int ratingStyle,
+            double ratingScore,
+            int productionYear,
+            int duration) {
+        this.mId = id;
+        this.mTitle = title;
+        this.mDescription = description;
+        this.mImageUrl = cardImage;
+        this.mLocalImageResource = cardImage;
+        this.live = live;
+        this.mWidth = width;
+        this.mHeight = height;
+    }
+
     public String getTitle() {
         return mTitle;
     }
@@ -66,6 +100,10 @@ public class Card {
 
     public String getExtraText() {
         return mExtraText;
+    }
+
+    public boolean isLive() {
+        return live;
     }
 
     public int getFooterColor() {

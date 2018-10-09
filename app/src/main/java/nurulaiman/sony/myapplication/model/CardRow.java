@@ -1,8 +1,10 @@
-package nurulaiman.sony.myapplication;
+package nurulaiman.sony.myapplication.model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
+
+import nurulaiman.sony.myapplication.model.Card;
 
 public class CardRow {
 
@@ -18,6 +20,8 @@ public class CardRow {
     @SerializedName("shadow") private boolean mShadow = true;
     @SerializedName("title") private String mTitle;
     @SerializedName("cards") private List<Card> mCards;
+
+
 
     public int getType() {
         return mType;

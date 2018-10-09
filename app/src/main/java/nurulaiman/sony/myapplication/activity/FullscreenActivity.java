@@ -1,4 +1,4 @@
-package nurulaiman.sony.myapplication.sample;
+package nurulaiman.sony.myapplication.activity;
 
 import android.app.Activity;
 import android.os.Bundle;

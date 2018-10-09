@@ -6,7 +6,9 @@
       "title": "Al Jazeera English - LIVE",
       "description": "At Al Jazeera English, we focus on people and events that affect people's lives.",
       "localImageResource": "aljazeera",
-      "videoId":"lpBAE0Z0INI"
+      "videoId":"FdtQ2ZgLbEs",
+      "id":0,
+      "live":true
     },
 
     {
@@ -14,7 +16,9 @@
       "title": "Arirang TV World - LIVE",
       "description": "Arirang TV/Radio is a public service agency that spreads the uniqueness of Korea to the world through cutting-edge broadcasting.",
       "localImageResource": "arirang",
-      "videoId":"2LWt-dxd0v4"
+      "videoId":"2LWt-dxd0v4",
+      "id":1,
+      "live":true
     },
 
     {
@@ -22,7 +26,9 @@
       "title": "Best Bits of Bean - LIVE",
       "description": "Livestream 24/7 Mr Bean",
       "localImageResource": "mrbean",
-      "videoId":"zEeSa0KpyOY"
+      "videoId":"Q1rNi_PP0YU",
+      "id":2,
+      "live":true
     },
 
     {
@@ -30,15 +36,19 @@
       "title": "Euronews English - LIVE",
       "description": "Euronews: the most watched news channel in Europe Subscribe!",
       "localImageResource": "euronews",
-      "videoId":"yS2V6jQBXwk"
+      "videoId":"1rGQ-kbmg1g",
+      "id":3,
+      "live":true
     },
 
     {
       "type": "YOUTUBETV_LIVE",
-      "title": "KBSWorld 24 - LIVE",
+      "title": "KBS World 24 - LIVE",
       "description": "700만 해외동포와 함께 하는 KBS World 24!!! ",
       "localImageResource": "kbsworld",
-      "videoId":"KkXq2sv6Tos"
+      "videoId":"KkXq2sv6Tos",
+      "id":4,
+      "live":true
     },
 
     {
@@ -46,7 +56,9 @@
       "title": "Mr Bean Cartoon Marathon - LIVE",
       "description": "Funny Episodes of Mr Bean the Animated Series 24/7",
       "localImageResource": "mrbeanc",
-      "videoId":"Lvp-lSqHVKc"
+      "videoId":"Lvp-lSqHVKc",
+      "id":5,
+      "live":true
     },
 
 
@@ -55,7 +67,9 @@
       "title": "YoutubeTvView fullscreen showcase",
       "description": "classic YoutubeTvView",
       "localImageResource": "fullscreen",
-      "videoId":"bdnHKdb-Oss"
+      "videoId":"bdnHKdb-Oss",
+      "id":6,
+      "live":false
     },
 
     {
@@ -63,7 +77,9 @@
       "title": "YoutubeTvView API showcase",
       "description": "YoutubeTvView with button controls",
       "localImageResource": "api",
-      "videoId":"bdnHKdb-Oss"
+      "videoId":"bdnHKdb-Oss",
+      "id":7,
+      "live":false
     }
 
   ]
